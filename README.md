@@ -56,4 +56,5 @@ To assess the efficiency of large-scale data screening, we created _time_analysi
 ![time analysis](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/593fd834-fb3b-4afd-b468-f7eacf5d82f4)
 
 The average processing time was 2.2 seconds/file. The modest increment in processing time demonstrates the program's consistent performance in handling large volumes without substantial slowdowns.
+
 The program run and measurement were performed on an x64-based PC (Model: SYS-5039A-I), Intel® Xeon® W-2255 CPU @ 3.70GHz.
