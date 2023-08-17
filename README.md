@@ -17,7 +17,7 @@ The _mainscript_ has three functions and their usage is described.
 
 ![image](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/b28e7a60-db01-432a-bcec-40aa1332733d)
 
-When starting the _mainscript_ in MATLAB, you can choose ‘Screen Multiple Sequences and Create Database’ to screen HD (**Fig a**). This function requires you to select a folder (**Fig b**) of genetic sequences saved as **text files**. The program then asks you to name the database to be created. Subsequently, the program will analyze and save the results in an Excel database accordingly, as shown in **Fig c**. 
+When starting the _mainscript_ in MATLAB, you can choose ‘Screen Multiple Sequences and Create Database’ to screen HD (**Fig a**). This function requires you to select a folder (**Fig b**) of genetic sequences saved as **text files**. The program then asks you to name the database to be created. Subsequently, the program will analyze and save the results in an Excel database accordingly, as shown in **Fig c**. Note that the genetic sequences used in this project were generated from _randomCAG_ script as described above.
 
 The Excel database has five columns, representing five outputs/results for each genetic sequence:
 1. ID
