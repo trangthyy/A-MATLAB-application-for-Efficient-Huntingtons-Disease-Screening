@@ -9,7 +9,7 @@ To aid in the early detection of the disease by genetic analysis, we provide a c
 3. Visualize Individual Data
 
 We also developed two scripts: _randomCAG_ to create large genetic datasets for HD (based on the Reference gene obtained from Ensembl https://asia.ensembl.org/Homo_sapiens/Transcript/Summary?g=ENSG00000197386;r=4:3074681-3243957;t=ENST00000355072) and _time_analysis_ to analyze the time consumed by the program for large-scale data screening (Screen Multiple Sequences & Create Database function).
-By providing the HTT gene analysis, our program aids in cutting the cost of the HD screening service.
+By providing the HTT gene analysis, our program aims to automate and reduce the cost of the HD screening service.
 
 ## _mainscript_
 The _mainscript_ has three functions and their usage is described.
