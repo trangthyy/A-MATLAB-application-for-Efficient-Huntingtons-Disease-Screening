@@ -14,7 +14,9 @@ By providing the HTT gene analysis, our program aids in cutting the cost of the 
 ## _mainscript_
 The _mainscript_ has three functions and their usage is described.
 ### Screen Multiple Sequences & Create Database
+
 ![image](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/b28e7a60-db01-432a-bcec-40aa1332733d)
+
 When starting the _mainscript_ in MATLAB, you can choose ‘Screen Multiple Sequences and Create Database’ to screen HD (**Fig a**). This function requires you to select a folder (**Fig b**) of genetic sequences saved as **text files**. The program then asks you to name the database to be created. Subsequently, the program will analyze and save the results in an Excel database accordingly, as shown in **Fig c**. 
 
 The Excel database has five columns, representing five outputs/results for each genetic sequence:
@@ -27,7 +29,9 @@ The Excel database has five columns, representing five outputs/results for each 
 The program can detect non-gene files and save the ID as 'error' and Diagnosis as 'File error'. 
 
 In addition, each genetic sequence will be visualized in a comprehensive figure that will be saved in the same folder.
+
 ![image](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/d2461a05-6ebe-4b64-821c-08164429b59e)
+
 The Reference gene was used as an example for visualization. It was found to have a maximum of 19 consecutive CAG repeats (bar graph, top left) located at the beginning of the HTT gene (sequence heatmap, bottom). Note that there are around 150 CAG repeats in total but only 19 consecutive ones (codon frequency heatmap, top right).
 
 Other sequences will be visualized in the same graphs, but the number of codons and their positions will vary.
@@ -37,7 +41,9 @@ Other sequences will be visualized in the same graphs, but the number of codons 
 2. Due to the large number of data, figures will not be displayed in the Screen Multiple Sequences & Create Database function.
 
 ### Append New Profile
+
 ![image](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/1860e11c-191d-45c9-bdbf-924ae3c4d9c2)
+
 Next, you can use the function 'Append New Profile' to append a single new profile to the created database. You can either:
 * Paste a sequence
 * Import a text file
@@ -45,7 +51,9 @@ Next, you can use the function 'Append New Profile' to append a single new profi
 Subsequently, a new visualizing figure will also be created, displayed, and saved.
 
 ### Visualize Individual Data
+
 ![image](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/6d208736-0001-460d-aaaa-5feeb3fa9817)
+
 Finally, the program offers the ‘Visualize Individual Data’ function to analyze a specific profile within an existing database. After choosing the ‘Visualize Individual Data’ function, you can select a database, write the ID of the desired sequence, and the visualization graphs will be displayed.
 
 ## _randomCAG_
@@ -53,6 +61,7 @@ Due to a lack of a public genetic database for HD, we created randomCAG script t
 
 ## time_analysis
 To assess the efficiency of large-scale data screening, we created _time_analysis_ to screen folders of 1,000 to 10,000 genetic sequences, with 1,000 file intervals. The script consists only of the codes from the Screen Multiple Sequences & Create Database function.
+
 ![time analysis](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/593fd834-fb3b-4afd-b468-f7eacf5d82f4)
 
 The average processing time was 2.2 seconds/file. The modest increment in processing time demonstrates the program's consistent performance in handling large volumes without substantial slowdowns.
