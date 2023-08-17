@@ -1,5 +1,3 @@
-% This script analyzes time consumed by the Screen Multiple Sequences & Create Database function
-
     foldername = uigetdir('Select a folder');
     original_files=dir([foldername '/*.txt']);
     % Create a new excel database in folder in advance
