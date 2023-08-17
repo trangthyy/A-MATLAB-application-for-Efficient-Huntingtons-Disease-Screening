@@ -58,3 +58,6 @@ To assess the efficiency of large-scale data screening, we created _time_analysi
 The average processing time was 2.2 seconds/file. The modest increment in processing time demonstrates the program's consistent performance in handling large volumes without substantial slowdowns.
 
 The program run and measurement were performed on an x64-based PC (Model: SYS-5039A-I), Intel® Xeon® W-2255 CPU @ 3.70GHz.
+
+## References
+[1] Huntington disease. MedlinePlus Genetics. https://medlineplus.gov/‌genetics/condition/‌ h‌untington-disease/, last accessed 2023/07/08.
