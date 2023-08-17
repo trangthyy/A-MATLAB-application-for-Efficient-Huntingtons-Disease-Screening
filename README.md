@@ -59,7 +59,7 @@ Finally, the program offers the ‘Visualize Individual Data’ function to anal
 ## _randomCAG_
 Due to a lack of a public genetic database for HD, we created randomCAG script to generate 10,000 sequences for efficiency assessment using the raw Reference gene as the template (obtained from Ensembl https://asia.ensembl.org/Homo_sapiens/Transcript/Summary?g=ENSG00000197386;r=4:3074681-3243957;t=ENST00000355072). The position and length of CAG repeats were determined randomly within appropriate ranges.
 
-## time_analysis
+## _time_analysis_
 To assess the efficiency of large-scale data screening, we created _time_analysis_ to screen folders of 1,000 to 10,000 genetic sequences, with 1,000 file intervals. The script consists only of the codes from the Screen Multiple Sequences & Create Database function and additional codes to measure processing time.
 
 ![time analysis](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/593fd834-fb3b-4afd-b468-f7eacf5d82f4)
