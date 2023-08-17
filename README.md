@@ -8,7 +8,7 @@ To aid in the early detection of the disease by genetic analysis, we provide a c
 2. Append New Profile
 3. Visualize Individual Data
 
-We also developed two scripts: _randomCAG_ to create large genetic datasets for HD (based on the Reference gene obtained from Ensembl https://asia.ensembl.org/Homo_sapiens/Transcript/Summary?g=ENSG00000197386;r=4:3074681-3243957;t=ENST00000355072) and _time_analysis_ to analyze the time consumed by the program for large-scale data screening.
+We also developed two scripts: _randomCAG_ to create large genetic datasets for HD (based on the Reference gene obtained from Ensembl https://asia.ensembl.org/Homo_sapiens/Transcript/Summary?g=ENSG00000197386;r=4:3074681-3243957;t=ENST00000355072) and _time_analysis_ to analyze the time consumed by the program for large-scale data screening (Screen Multiple Sequences & Create Database function).
 By providing the HTT gene analysis, our program aids in cutting the cost of the HD screening service.
 
 ## _mainscript_
@@ -47,3 +47,12 @@ Subsequently, a new visualizing figure will also be created, displayed, and save
 ### Visualize Individual Data
 ![image](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/6d208736-0001-460d-aaaa-5feeb3fa9817)
 Finally, the program offers the ‘Visualize Individual Data’ function to analyze a specific profile within an existing database. After choosing the ‘Visualize Individual Data’ function, you can select a database, write the ID of the desired sequence, and the visualization graphs will be displayed.
+
+## _randomCAG_
+Due to a lack of a public genetic database for HD, we created randomCAG script to generate 10,000 sequences for efficiency assessment using the raw Reference gene as the template (obtained from Ensembl https://asia.ensembl.org/Homo_sapiens/Transcript/Summary?g=ENSG00000197386;r=4:3074681-3243957;t=ENST00000355072). The position and length of CAG repeats were determined randomly within appropriate ranges.
+
+## time_analysis
+To assess the efficiency of large-scale data screening, we created _time_analysis_ to screen folders of 1,000 to 10,000 genetic sequences, with 1,000 file intervals. The script consists only of the codes from the Screen Multiple Sequences & Create Database function.
+![time analysis](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/593fd834-fb3b-4afd-b468-f7eacf5d82f4)
+The average processing time was 2.2 seconds/file. The modest increment in processing time demonstrates the program's consistent performance in handling large volumes without substantial slowdowns.
+The program run and measurement were performed on an x64-based PC (Model: SYS-5039A-I), Intel® Xeon® W-2255 CPU @ 3.70GHz.
