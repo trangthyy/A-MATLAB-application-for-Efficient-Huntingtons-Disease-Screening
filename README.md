@@ -54,5 +54,6 @@ Due to a lack of a public genetic database for HD, we created randomCAG script t
 ## time_analysis
 To assess the efficiency of large-scale data screening, we created _time_analysis_ to screen folders of 1,000 to 10,000 genetic sequences, with 1,000 file intervals. The script consists only of the codes from the Screen Multiple Sequences & Create Database function.
 ![time analysis](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/593fd834-fb3b-4afd-b468-f7eacf5d82f4)
+
 The average processing time was 2.2 seconds/file. The modest increment in processing time demonstrates the program's consistent performance in handling large volumes without substantial slowdowns.
 The program run and measurement were performed on an x64-based PC (Model: SYS-5039A-I), Intel® Xeon® W-2255 CPU @ 3.70GHz.
