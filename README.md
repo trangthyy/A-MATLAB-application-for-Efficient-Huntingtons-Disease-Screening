@@ -32,7 +32,7 @@ In addition, each genetic sequence will be visualized in a comprehensive figure 
 
 ![image](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/d2461a05-6ebe-4b64-821c-08164429b59e)
 
-The Reference gene was used as an example for visualization. It was found to have a maximum of 19 consecutive CAG repeats (bar graph, top left) located at the beginning of the HTT gene (sequence heatmap, bottom). Note that there are around 150 CAG repeats in total but only 19 consecutive ones (codon frequency heatmap, top right).
+The Reference gene was used as an example for visualization. It was found to have a maximum of 19 consecutive CAG repeats (bar graph, top left) located at the beginning of the HTT gene (sequence heatmap, bottom). Note that there are around 150 CAG repeats in total but only a maximum of 19 consecutive ones (codon frequency heatmap, top right).
 
 Other sequences will be visualized in the same graphs, but the number of codons and their positions will vary.
 
