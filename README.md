@@ -44,7 +44,7 @@ Other sequences will be visualized in the same graphs, but the number of codons 
 
 ![Figure 3 (instruction)](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/0c46d99a-898a-4fc5-a609-2d5fbee509c5)
 
-Next, you can use the function 'Append New Profile' to append a single new profile to the created database. You can either:
+Next, you can use the function 'Append New Profile' to append a single new profile to the created database. After selecting the function, the program then asks you to input the new ID. Next, you can either:
 * Paste a sequence
 * Import a text file
 
