@@ -3,7 +3,7 @@
 ## Introduction
 Huntington’s Disease (HD) is a neurodegenerative disorder caused by the dysfunction of the basal ganglia in the human brain. It involves the HTT gene encoding for the Huntingtin protein. Patients who have more than 40 **consecutive** CAG repeats on the HTT gene typically develop HD in their lives while those who have less than 35 repeats do not [1]. Meanwhile, individuals who have 36 to 39 repeats may or may not develop HD throughout their lives [1].
 
-To aid in the early detection of the disease by genetic analysis, we provide a comprehensive MATLAB application (_mainscript_) capable of screening HD that encompasses:
+To aid in the early detection of the disease by genetic analysis, we provide a comprehensive MATLAB application (_mainscript_) capable of screening HD that encompasses three functions:
 1. Screen Multiple Sequences & Create Database
 2. Append New Profile
 3. Visualize Individual Data
