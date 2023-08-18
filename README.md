@@ -15,7 +15,7 @@ By providing the HTT gene analysis, our program aims to automate and reduce the 
 The _mainscript_ has three functions and their usage is described.
 ### Screen Multiple Sequences & Create Database
 
-![image](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/b28e7a60-db01-432a-bcec-40aa1332733d)
+![Figure 2 (instruction crop)](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/d0bc6575-db90-4c10-b740-fee9a89e34dc)
 
 To screen for HD in a large set of genetic sequences and record data in a database, you can choose the ‘Screen Multiple Sequences and Create Database’ function (**Fig a**). When running _mainscript_ in MATLAB, select the function, then the program requires you to select a folder (**Fig b**) of genetic sequences saved as **text files**. The program then asks you to name the database. Subsequently, the program will analyze and save the results in an Excel database accordingly, as shown in **Fig c**. Note that the genetic sequences used in this project were generated from _randomCAG_ script as described above.
 
@@ -42,7 +42,7 @@ Other sequences will be visualized in the same graphs, but the number of codons 
 
 ### Append New Profile
 
-![image](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/1860e11c-191d-45c9-bdbf-924ae3c4d9c2)
+![Figure 3 (instruction crop)](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/9948264f-bd08-4090-815e-47280846cb68)
 
 Next, you can use the function 'Append New Profile' to append a single new profile to the created database. You can either:
 * Paste a sequence
@@ -52,7 +52,7 @@ Subsequently, a new visualizing figure will also be created, displayed, and save
 
 ### Visualize Individual Data
 
-![image](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/6d208736-0001-460d-aaaa-5feeb3fa9817)
+![Figure 4 (instruction crop)](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/df5180ae-2eeb-4460-9d30-59992182ae72)
 
 Finally, the program offers the ‘Visualize Individual Data’ function to analyze a specific profile within an existing database. After choosing the ‘Visualize Individual Data’ function, you can select a database, write the ID of the desired sequence, and the visualization graphs will be displayed.
 
