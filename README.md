@@ -1,4 +1,4 @@
-# A-MATLAB-program-for-Hungtingtons-Disease-Screening
+# A-MATLAB-Application-for-Efficient-Hungtingtons-Disease-Screening
 
 ## Introduction
 Huntington’s Disease (HD) is a neurodegenerative disorder caused by the dysfunction of the basal ganglia in the human brain. It involves the HTT gene encoding for the Huntingtin protein. Patients who have more than 40 **consecutive** CAG repeats on the HTT gene typically develop HD in their lives while those who have less than 35 repeats do not [1]. Meanwhile, individuals who have 36 to 39 repeats may or may not develop HD throughout their lives [1].
