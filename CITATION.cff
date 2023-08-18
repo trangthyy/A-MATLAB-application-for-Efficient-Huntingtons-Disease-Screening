@@ -1,0 +1,7 @@
+cff-version: 1.0
+message: "If you want to use this application, please cite as below."
+authors:
+  - family-names: Ta, Dao
+    given-names: Thy Hoang Trang, Trang Thu
+title: "A MATLAB application for Huntington's disease screening"
+date-released: 2023-08-18
