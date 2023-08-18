@@ -28,7 +28,7 @@ while interface == 1
                 ID = true;
                 break
              else
-                fprintf('Data of patient %s is unavailable.\nRe-enter patient''s ID: \n',ID_in_data);
+                fprintf('Data of patient %s is unavailable. Please re-enter patient''s ID.\n',ID_in_data);
              end
          end
          if ID ~= true 
