@@ -8,7 +8,7 @@ To aid in the early detection of the disease by genetic analysis, we provide a c
 2. Append New Profile
 3. Visualize Individual Data
 
-We also developed two scripts: _randomCAG_ to create large genetic datasets for HD (based on the Reference gene obtained from Ensembl https://asia.ensembl.org/Homo_sapiens/Transcript/Summary?g=ENSG00000197386;r=4:3074681-3243957;t=ENST00000355072) and _time_analysis_ to analyze the time consumed by the program for large-scale data screening (Screen Multiple Sequences & Create Database function).
+We also developed two scripts: _randomCAG_ to randomly create large genetic datasets for HD due to the lack of an accessible data source (based on the Reference gene obtained from Ensembl https://asia.ensembl.org/Homo_sapiens/Transcript/Summary?g=ENSG00000197386;r=4:3074681-3243957;t=ENST00000355072) and _time_analysis_ to analyze the time consumed by the program for large-scale data screening (Screen Multiple Sequences & Create Database function).
 By providing the HTT gene analysis, our program aims to automate and reduce the cost of the HD screening service.
 
 ## _mainscript_
@@ -17,7 +17,7 @@ The _mainscript_ has three functions and their usage is described.
 
 ![image](https://github.com/trangthyy/A-MATLAB-program-for-Hungtingtons-Disease-Screening/assets/139542244/b28e7a60-db01-432a-bcec-40aa1332733d)
 
-When starting the _mainscript_ in MATLAB, you can choose ‘Screen Multiple Sequences and Create Database’ to screen HD (**Fig a**). This function requires you to select a folder (**Fig b**) of genetic sequences saved as **text files**. The program then asks you to name the database to be created. Subsequently, the program will analyze and save the results in an Excel database accordingly, as shown in **Fig c**. Note that the genetic sequences used in this project were generated from _randomCAG_ script as described above.
+To screen for HD in a large set of genetic sequences and record data in a database, you can choose the ‘Screen Multiple Sequences and Create Database’ function (**Fig a**). When running _mainscript_ in MATLAB, select the function, then the program requires you to select a folder (**Fig b**) of genetic sequences saved as **text files**. The program then asks you to name the database. Subsequently, the program will analyze and save the results in an Excel database accordingly, as shown in **Fig c**. Note that the genetic sequences used in this project were generated from _randomCAG_ script as described above.
 
 The Excel database has five columns, representing five outputs/results for each genetic sequence:
 1. ID
