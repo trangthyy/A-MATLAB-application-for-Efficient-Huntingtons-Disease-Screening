@@ -342,9 +342,6 @@ else
     % Display the lengths of the consecutive sequences
     %disp(lengths)
     
-    Nuposarray = repelem(codoncmp, 3); % Convert the logical array of codons to the one of nucleotides
-    Nuposition = double(Nuposarray'); % Convert the logical array of nucleotides to a double array of nucleotides
-    
     % Draw the bar chart to show the number of "CAG" codon repeats
     tiledlayout(2,3); % Create a tiled layout to display all plots
     nexttile; % Mark axis of the 1st plot
@@ -362,6 +359,8 @@ else
     title('Human HTT gene codon frequency'); % Name the title of the heatmap
     
     % Draw a heat map to show the positions of CAG codons in genome sequence
+    Nuposarray = repelem(codoncmp, 3); % Convert the logical array of codons to the one of nucleotides
+    Nuposition = double(Nuposarray'); % Convert the logical array of nucleotides to a double array of nucleotides
     nexttile([1 3]); % Mark axis of the 3rd plot
     seqMap = heatmap(Nuposition, 'Title', 'Subject gene sequence heatmap', 'XLabel', 'Position', 'YLabel', 'Nucleotide');
     seqMap.GridVisible = 'off';
